@@ -184,7 +184,7 @@ import seaborn as sns
 sns.lmplot('Product_Quality','Customer_Satisfaction',train,fit_reg=True)
 #fit_reg : If True, estimate and plot a regression model relating the x and y variables.
 sns.lmplot('Product_Quality','Customer_Satisfaction',train,lowess=True)
-#lowess : If True, use statsmodels to estimate a nonparametric lowess model (locally weighted linear regression). Note that confidence intervals cannot currently be drawn for this kind of model.
+#lowess : If True, use statsmodels to estimate a nonparametric lowess model (locally weighted linear regression).
 
 
 
